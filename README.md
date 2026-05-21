@@ -4,6 +4,11 @@ A RAG (Retrieval-Augmented Generation) based research tool that lets you paste U
 
 ---
 
+## 🚀 Live Demo
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://real-estate-assistant-r5wpmfaahnglsrhzuh4xfp.streamlit.app/)
+
+👉 [Click here to try the app](https://real-estate-assistant-r5wpmfaahnglsrhzuh4xfp.streamlit.app/)
+
 ## Features
 
 - Paste up to 3 article URLs from any news source
