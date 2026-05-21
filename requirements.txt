@@ -1,0 +1,24 @@
+streamlit                    # Frontend UI framework
+python-dotenv               # Load environment variables from .env
+
+langchain                   # Core LangChain abstractions
+langchain-core              # Modern prompts/runnables/interfaces
+langchain-community         # Community integrations (loaders etc.)
+langchain-chroma            # Chroma vector DB integration
+langchain-groq              # Groq LLM integration
+langchain-google-genai      # Google Gemini embeddings and chat models
+langchain-text-splitters    # Text splitting utilities
+
+chromadb                    # Actual vector database backend
+
+# unstructured               # UnstructuredURLLoader dependency - works on Linux/Mac but
+#                            # requires native C libs (libmagic, onnxruntime) that cause
+#                            # segfaults on Windows. Replaced with requests + beautifulsoup4.
+
+requests                    # HTTP requests for fetching webpage content
+beautifulsoup4              # HTML parsing - used as Windows-safe replacement for UnstructuredURLLoader
+lxml                        # HTML parser backend for BeautifulSoup
+
+
+tiktoken                    # Tokenization utilities
+protobuf                    # Internal ML serialization dependency

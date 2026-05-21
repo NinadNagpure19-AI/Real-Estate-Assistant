@@ -1,0 +1,33 @@
+Below are the URLs you can use to put in the app URL boxes:
+
+    "https://www.reuters.com/business/us-mortgage-rates-rise-656-mba-says-2026-05-20/",
+    
+    "https://fortune.com/article/current-mortgage-rates-05-12-2026/",
+    
+    "https://www.bloomberg.com/news/articles/2026-05-14/us-mortgage-rates-are-little-changed-despite-surging-inflation",
+    
+    "https://www.cbsnews.com/news/mortgage-interest-rate-forecast-may-2026-experts/"
+
+
+
+Below are a few sample questions you can ask the RAG application:
+
+1. What is the current 30-year fixed mortgage rate?
+
+2. Why did mortgage rates increase recently?
+
+3. How does Federal Reserve policy affect mortgage rates?
+
+4. What are experts predicting about mortgage rates in 2026?
+
+5. Which article mentions inflation affecting mortgage rates?
+
+6. Summarize all the uploaded articles in 5 points.
+
+7. What are the major factors driving mortgage rate changes?
+
+8. Did any article mention homebuyer affordability issues?
+
+9. Compare the viewpoints from Reuters and Bloomberg articles.
+
+10. Which source says mortgage rates may decrease later this year?
