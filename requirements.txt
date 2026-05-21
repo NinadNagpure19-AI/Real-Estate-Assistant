@@ -1,24 +1,19 @@
-streamlit                    # Frontend UI framework
-python-dotenv               # Load environment variables from .env
+streamlit==1.57.0            # Frontend UI framework
+python-dotenv==1.2.2         # Load environment variables from .env
 
-langchain                   # Core LangChain abstractions
-langchain-core              # Modern prompts/runnables/interfaces
-langchain-community         # Community integrations (loaders etc.)
-langchain-chroma            # Chroma vector DB integration
-langchain-groq              # Groq LLM integration
-langchain-google-genai      # Google Gemini embeddings and chat models
-langchain-text-splitters    # Text splitting utilities
+langchain==1.3.1             # Core LangChain abstractions
+langchain-core==1.4.0        # Modern prompts/runnables/interfaces
+langchain-community==0.4.1   # Community integrations (loaders etc.)
+langchain-chroma==1.1.0      # Chroma vector DB integration
+langchain-groq==1.1.2        # Groq LLM integration
+langchain-google-genai==4.2.2 # Google Gemini embeddings and chat models
+langchain-text-splitters==1.1.2 # Text splitting utilities
 
-chromadb                    # Actual vector database backend
+chromadb==1.5.9              # Actual vector database backend
 
-# unstructured               # UnstructuredURLLoader dependency - works on Linux/Mac but
-#                            # requires native C libs (libmagic, onnxruntime) that cause
-#                            # segfaults on Windows. Replaced with requests + beautifulsoup4.
+requests==2.34.2             # HTTP requests for fetching webpage content
+beautifulsoup4==4.14.3       # HTML parsing - used as Windows-safe replacement for UnstructuredURLLoader
+lxml==6.1.1                  # HTML parser backend for BeautifulSoup
 
-requests                    # HTTP requests for fetching webpage content
-beautifulsoup4              # HTML parsing - used as Windows-safe replacement for UnstructuredURLLoader
-lxml                        # HTML parser backend for BeautifulSoup
-
-
-tiktoken                    # Tokenization utilities
-protobuf                    # Internal ML serialization dependency
+tiktoken==0.13.0             # Tokenization utilities
+protobuf==5.29.6             # Internal ML serialization dependency
