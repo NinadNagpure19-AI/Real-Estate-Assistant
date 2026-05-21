@@ -1,0 +1,6 @@
+venv/
+.env
+resources/vectorstore/
+__pycache__/
+*.pyc
+.git/
